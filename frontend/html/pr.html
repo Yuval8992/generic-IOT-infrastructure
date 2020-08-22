@@ -1,0 +1,102 @@
+
+<html>
+    <head>
+        <title>
+            Product-Registration
+        </title>
+
+        <style>
+             *{box-sizing:border-box}
+
+            html, body{ 
+                margin:0; 
+                height:100%;
+                font:600 16px/18px sans-serif;
+            }
+
+            .wrapper{
+                height: 100%;
+                background: url(../css/iot4.jpg);
+                background-size: 100% 100%;
+            }
+
+            .register-product{
+                height:100%;
+                width: 30%;
+                position: absolute; 
+                padding:80px 70px 50px 70px;         
+                background: rgba(239, 240, 237, 0.1);       
+            }
+
+            .title{ 
+                font-size:20px;
+                color:#fff;
+                display: block;
+                text-align: center;
+                margin:0 20px 20px 0;
+                border-bottom:3px solid;
+                padding-bottom:10px;
+	            border-color: #1161ee;
+                text-shadow:2px 2px 4px #fff;
+            }  
+
+            .input, .button {
+                width:100%;
+                border:none;
+                padding:15px 20px;
+                border-radius:25px;
+                background:rgba(255,255,255,.1);
+                margin-bottom:15px;
+            }
+
+            .button{
+                color:#fff;
+                background:#1161ee;
+                transition: 1s;
+            }
+
+            .navbar{
+              height: 200px;
+              top: 0;
+              display: inline;
+            }
+
+            .button_update_info{
+                width: 50%;
+                padding:15px 20px;
+                border-radius:25px;
+                background:#1161ee;
+                border:none;
+            }
+
+            .button:hover{
+                background-color: rgb(2, 2, 92);
+            }
+
+        </style>
+    </head>
+
+<body>
+  <div class="wrapper">
+    <div class="register-product">
+      <label for="title" class="title">PRODUCT REGISTERATION</label>
+      <div>
+        <input type="text" class="input" placeholder="Product ID" required>
+      </div>
+      <div>
+        <input type="text" class="input" placeholder="Product Name" required>
+      </div>
+      <div>
+       <input type="submit" class="button" value="Register">
+      </div>
+    </div>
+  </div>  
+</body>
+</html>
+
+
+
+
+
+
+

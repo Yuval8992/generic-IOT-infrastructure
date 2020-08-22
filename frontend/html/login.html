@@ -1,0 +1,143 @@
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Login 
+        </title>
+        
+        <style>
+            *{box-sizing:border-box}
+
+            body{
+                margin:0;     
+                height:100%;
+                background:#c8c8c8;
+                font:600 16px/18px sans-serif;
+            }
+
+            .login-wrap{
+                height:100%;
+                width:510px;	                 
+                margin:auto;
+                position:relative; 
+                background:url(/home/student/Desktop/iot8.jpg) no-repeat center fixed;
+                background-size:cover;
+            }   
+
+            .login{
+                height:100%;
+                width:100%;            
+                padding:60px 70px 50px 70px;
+                background:rgba(40,57,101,.9); 
+            }
+
+            .sign-in, .sign-up{
+                display:none;
+            }
+
+            .tab-sign-in{
+                display:inline-block;
+                font-size:20px;
+                color:#fff;
+                margin:0 20px 10px 0;
+                border-bottom:3px solid;
+                padding-bottom:10px;
+	            border-color:#1161ee;
+                margin-bottom: 20px;
+                font-weight: 400;
+            }
+
+            .tab-sign-up{
+                display:inline-block;
+                font-size:20px;
+                color:#aaa;
+                text-decoration:none;
+                opacity: 0.5;
+                font-weight: 400;
+            }
+
+            .tab-sign-up:hover{
+                opacity: 1;
+            }
+            .group{
+                margin-bottom:15px;
+            }
+
+            .input, .button {
+                width:100%;
+                border:none;
+                padding:15px 20px;
+                border-radius:25px;
+                background:rgba(255,255,255,.1);
+            }
+
+            .label{
+                color:#aaa;
+                font-size:12px;
+                margin-left: 15px;
+            }
+
+            .check-label{
+                font-size:15px;
+                padding-bottom:15px;
+                padding-top: 10px;
+                margin:5px 8px 10px 0;
+                display:inline-block;
+                color:#fff;
+            }
+
+            .button{
+                color:#fff;
+                background:#1161ee;
+                transition: 1s;
+            }
+
+            .button:hover{
+                background-color: rgb(2, 2, 92);
+            }
+
+            .hr{
+                height:2px;
+                margin:50px 0 50px 0;
+                background:rgba(255,255,255,.2);
+            }
+            
+        </style> 
+    </head>
+    
+    
+    <body>
+        <div class="login-wrap">
+          <div class="login">
+              <form action="/home/student/Desktop/pr.html" method = "POST">
+                <label for="sign-in" class=tab-sign-in> SIGN IN </label>               
+                <input type="radio" id="sign-in" class="sign-in">
+
+                <a href="/home/student/Desktop/cr.html" class=" tab-sign-up">SIGN UP</a>
+
+                <div class="group">
+                    <label for="user" class="label">EMAIL</label>
+                    <input type="text" id="user" class="input" required>
+                </div>
+
+                <div class="group">
+                    <label for="password" class="label">PASSWORD</label>
+                    <input type="password" id="password" class="input" required>
+                </div>
+
+                <div class="group">
+                    <label for="check" class="check-label"> Keep me signed in</label>
+                    <input type="checkbox" id="check" class="check" checked>
+                </div>
+
+                <div class="group">
+                    <input type="submit" class="button" value="Sign In">
+                </div>
+                <div class="hr"></div>
+
+                </form>
+         </div>
+     </div>
+    </body>
+</html>

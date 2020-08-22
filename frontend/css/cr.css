@@ -1,0 +1,76 @@
+*{box-sizing:border-box}
+
+body{
+    margin:0;     
+    height:100%;
+    background:#c8c8c8;
+    font:600 16px/18px sans-serif;
+}
+
+.company-register-wrap{
+    overflow: auto;
+    height:100%;
+    width:510px;	                 
+    margin:auto;
+    position:relative; 
+    background:url(/home/student/Desktop/iot8.jpg) no-repeat center fixed;
+    background-size: cover;
+}   
+
+.company-register{
+    overflow: auto;
+    height:100%;
+    width:100%;
+    padding:15px 70px 5px 70px;
+    background:rgba(40,57,101,0.9); 
+}
+
+.back-to-login{
+    color:#fff;
+    font-size:15px;
+    text-decoration: none; 
+}
+.back-to-login-input{
+    display:none; 
+}
+
+.title{
+    font-size:20px;
+    color:#fff;
+    display: block;
+    text-align: center;
+    margin:0 20px 20px 0;
+    border-bottom:3px solid;
+    padding-bottom:10px;
+    border-color:#1161ee;              
+}
+
+.input, .button {
+    width:100%;
+    border:none;
+    padding:15px 20px;
+    border-radius:25px;
+    background:rgba(255,255,255,.1);
+    margin-bottom:15px;
+}
+
+.label{
+    color:#aaa;
+    font-size:12px;
+}
+
+.button{
+    color:#fff;
+    background:#1161ee;
+    transition: 1s;
+}
+
+.button:hover{
+    background-color: rgb(2, 2, 92);
+}
+
+.hr{
+    height:2px;
+    margin:5px 0 15px 0;
+    background:rgba(255,255,255,.2);
+}

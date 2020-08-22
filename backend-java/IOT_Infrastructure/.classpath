@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/home/student/Desktop/jars/httpjars/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="/home/student/Desktop/jars/httpjars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/student/Desktop/jars/httpjars/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="/home/student/Desktop/jars/httpjars/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="/home/student/Desktop/jars/java-json.jar"/>
+	<classpathentry kind="lib" path="/home/student/Desktop/jars/mysql-connector-java-8.0.19.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/student/Desktop/jars/servlet-api.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
